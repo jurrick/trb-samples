@@ -1,3 +1,12 @@
+GIT
+  remote: git://github.com/trailblazer/trailblazer-rails.git
+  revision: 39db11b99f1edf895cbbd9d894c394ec11647a02
+  specs:
+    trailblazer-rails (0.3.2)
+      reform-rails (>= 0.1.4)
+      trailblazer (>= 1.0.4)
+      trailblazer-loader (>= 0.1.0)
+
 PATH
   remote: ../trb-engine
   specs:
@@ -90,7 +99,7 @@ GEM
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
     mini_portile2 (2.1.0)
-    minitest (5.9.0)
+    minitest (5.9.1)
     multi_json (1.12.1)
     nio4r (1.2.1)
     nokogiri (1.6.8)
@@ -132,9 +141,9 @@ GEM
       disposable (>= 0.3.0, < 0.4.0)
       representable (>= 2.4.0, < 3.1.0)
       uber (~> 0.0.11)
-    reform-rails (0.1.5)
+    reform-rails (0.1.7)
       activemodel (>= 3.2)
-      reform (>= 2.2.0.rc1)
+      reform (>= 2.2.0)
     representable (3.0.0)
       declarative (~> 0.0.5)
       uber (~> 0.0.15)
@@ -165,10 +174,6 @@ GEM
       reform (>= 2.0.0, < 3.0.0)
       uber (>= 0.0.15)
     trailblazer-loader (0.1.0)
-    trailblazer-rails (0.3.2)
-      reform-rails (>= 0.1.4)
-      trailblazer (>= 1.0.4)
-      trailblazer-loader (>= 0.0.7)
     turbolinks (5.0.1)
       turbolinks-source (~> 5)
     turbolinks-source (5.0.0)
@@ -192,6 +197,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   coffee-rails (~> 4.2)
+  disposable
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
@@ -201,6 +207,7 @@ DEPENDENCIES
   spring
   spring-watcher-listen (~> 2.0.0)
   sqlite3
+  trailblazer-rails!
   trb-engine!
   turbolinks (~> 5)
   tzinfo-data
@@ -208,4 +215,4 @@ DEPENDENCIES
   web-console
 
 BUNDLED WITH
-   1.12.5
+   1.13.2
